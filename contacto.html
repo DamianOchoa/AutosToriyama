@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Autos Toriyama</title>
+    <link rel="stylesheet" href="styles/stylescontacto.css">
+</head>
+<body>
+    <div id="loader">
+        <img src="images/logo.png" alt="Cargando..." class="loader-logo">
+        <p class="loader-text">Cargando Autos Toriyama<span class="p1">.</span><span class="p2">.</span><span class="p3">.</span></p>
+    </div>
+    
+    <div class="header-container">
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Logo Autos Toriyama" class="logo-img"></a>
+            <h1 class="logo">Contacto - Autos Toriyama</h1>
+        </div>
+    </div><br>
+
+    <div class="form-container">
+        <form class="form">
+            <h2>Formulario de Contacto</h2>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre(s)" required>
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido(s)" required>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>
+
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Ingrese su contraseña" required>
+
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

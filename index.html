@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos Toriyama</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="loader">
+        <img src="images/logo.png" alt="Cargando..." class="loader-logo">
+        <p class="loader-text">Cargando Autos Toriyama<span class="p1">.</span><span class="p2">.</span><span class="p3">.</span></p>
+    </div>
+
+    <br><header>
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="#inicio"><img src="images/logo.png" alt="Logo Autos Toriyama" class="logo-img"></a>
+                <h1 class="logo">Autos Toriyama</h1>
+            </div>
+
+            <nav class="navbar">
+                <button class="hamburger" id="hamburger-btn">&#9776;</button>
+                    <ul class="menu" id="menu">
+                        <li><a href="#autos">Autos</a></li>
+                        <li><a href="comentarios.html">Comentarios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="preguntas.html">Preguntas</a></li>
+                        <li><a href="#ubicacion">Ubicación</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header><br>
+
+<section id="inicio" class="seccion inicio">
+    <h2 class="titulo-centro">Bienvenido a Autos Toriyama</h2>
+    <div class="bienvenida">
+        <p>
+            En <strong>Autos Toriyama</strong>, ofrecemos una amplia gama de vehículos que combinan <em>estilo, rendimiento y seguridad</em>.
+            Nuestro objetivo es ayudarte a encontrar el auto ideal, ya sea nuevo o seminuevo, con <strong>planes de financiamiento accesibles</strong>
+            y <strong>asesoría personalizada</strong>. Ven y descubre la emoción de conducir un auto que se adapta a tu estilo de vida.
+        </p>
+    </div>
+    <div class="video-container">
+        <video class="video" src="videos/mustang1.mp4" controls></video>
+        <video class="video" src="videos/challenger1.mp4" controls></video>
+    </div>
+</section>
+
+<section id="autos" class="seccion autos">
+    <h2 class="titulo-centro">Vehículos en Venta</h2>
+    <div class="galeria">
+        <figure data-auto="jetta"><img src="images/jetta.jpeg" alt="Jetta"><figcaption>Volkswagen Jetta</figcaption></figure>
+        <figure data-auto="rx7"><img src="images/rx7.jpeg" alt="RX-7"><figcaption>Mazda RX-7</figcaption></figure>
+        <figure data-auto="challenger"><img src="images/challenger.jpeg" alt="Challenger"><figcaption>Dodge Challenger Hellcat</figcaption></figure>
+        <figure data-auto="mustang"><img src="images/mustang.jpeg" alt="Mustang"><figcaption>Ford Mustang Shelby GT500</figcaption></figure>
+        <figure data-auto="charger"><img src="images/charger.png" alt="Charger"><figcaption>Dodge Charger</figcaption></figure>
+        <figure data-auto="ranger"><img src="images/ranger.jpeg" alt="Ranger"><figcaption>Ford Ranger</figcaption></figure>
+    </div>
+</section>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+    </div>
+</div><br>
+
+<section id="ubicacion" class="seccion ubicacion">
+    <h2 class="titulo-centro">Nuestra Ubicación</h2>
+    <div class="mapa-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6613779602677!2d-99.13320898472068!3d19.43260778688721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92d4f3f3b67%3A0x5f58dc579087a6f2!2sPalacio%20de%20Bellas%20Artes!5e0!3m2!1ses-419!2smx!4v1718824800000!5m2!1ses-419!2smx"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section><br>
+
+<footer>
+    <p>&copy; 2025 Autos Toriyama. Todos los derechos reservados.</p>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
